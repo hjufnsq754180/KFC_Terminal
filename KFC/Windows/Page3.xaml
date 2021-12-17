@@ -1,0 +1,117 @@
+﻿<Window x:Class="KFC.Windows.Page3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KFC.Windows"
+        mc:Ignorable="d"
+        Title="Page3" Height="892" Width="732" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Name="tbfin" HorizontalAlignment="Left" Height="730" Margin="0,162,0,0" TextWrapping="Wrap" Text="Ваш заказ:" VerticalAlignment="Top" Width="732"/>
+        <TabControl Name="tabControl" HorizontalAlignment="Center" Height="730" VerticalAlignment="Top" Width="729" TabStripPlacement="Left" Margin="0,162,0,0">
+            <TabItem Header="Бургеры" MinWidth="150" MinHeight="150">
+                <Grid Background="#FFE5E5E5">
+                    <Button HorizontalAlignment="Left" Margin="76,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Burger\Chizburger.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="331,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_1">
+                        <Button.Background>
+                            <ImageBrush ImageSource = "C:\Users\Yakel\source\repos\KFC\KFC\Img\Burger\Longer.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button  HorizontalAlignment="Left" Margin="76,273,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_2">
+                        <Button.Background>
+                            <ImageBrush ImageSource = "C:\Users\Yakel\source\repos\KFC\KFC\Img\Burger\Pesto.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="331,273,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_3">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Burger\shefburger.png"  />
+                        </Button.Background>
+                    </Button>
+                    <Label Content="150" HorizontalAlignment="Left" Margin="119,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="200" HorizontalAlignment="Left" Margin="378,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="300" HorizontalAlignment="Left" Margin="119,441,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="330" HorizontalAlignment="Left" Margin="378,441,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Десерты" MinWidth="150" MinHeight="150">
+                <Grid Background="#FFE5E5E5">
+                    <Button HorizontalAlignment="Left" Margin="76,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_4">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Desert\DonatKaramel.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="331,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_5">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Desert\DonutClubnika.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="76,273,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_6">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Desert\PirozojokVishna.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="331,273,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_7">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Desert\Rojok.png"  />
+                        </Button.Background>
+                    </Button>
+                    <Label Content="210" HorizontalAlignment="Left" Margin="119,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="210" HorizontalAlignment="Left" Margin="378,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="180" HorizontalAlignment="Left" Margin="119,441,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="60" HorizontalAlignment="Left" Margin="378,441,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Твистеры" MinWidth="150" MinHeight="150">
+                <Grid Background="#FFE5E5E5">
+                    <Button HorizontalAlignment="Left" Margin="76,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_8">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Tvister\AiTvister.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="331,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_9">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Tvister\BoxMaster.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="76,273,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_10">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Tvister\Junior.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Label Content="110" HorizontalAlignment="Left" Margin="119,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="190" HorizontalAlignment="Left" Margin="378,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="200" HorizontalAlignment="Left" Margin="119,441,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Картофель" MinWidth="150" MinHeight="150">
+                <Grid Background="#FFE5E5E5">
+                    <Button  HorizontalAlignment="Left" Margin="76,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_11">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Kartofel\HashBrown.png"></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="331,29,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_12">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Kartofel\KartofelDerevensiy.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button HorizontalAlignment="Left" Margin="76,273,0,0" VerticalAlignment="Top" Width="150" Height="150" Click="Button_Click_13">
+                        <Button.Background>
+                            <ImageBrush ImageSource ="C:\Users\Yakel\source\repos\KFC\KFC\Img\Kartofel\KartofelFree.png"  ></ImageBrush>
+                        </Button.Background>
+                    </Button>
+                    <Label Content="180" HorizontalAlignment="Left" Margin="119,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="180" HorizontalAlignment="Left" Margin="378,184,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                    <Label Content="220" HorizontalAlignment="Left" Margin="119,441,0,0" VerticalAlignment="Top" Height="40" Width="59" FontSize="20" HorizontalContentAlignment="Center"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Image Margin="291,10,292,735" Source="/KFC;component/1024px_KFC_logo.svg.png" Stretch="Fill"/>
+        <Button Name="oplataButton" Content="Оплатить" HorizontalAlignment="Left" Margin="599,824,0,0" VerticalAlignment="Top" Width="112" Height="43" Click="oplataButton_Click"/>
+        <Label Name="finSum" Content="Итог:" HorizontalAlignment="Left" Margin="446,833,0,0" VerticalAlignment="Top" Width="90"/>
+    </Grid>
+</Window>
